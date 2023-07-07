@@ -1,8 +1,10 @@
+import Image from "/src/components/Image.tsx"
+
 function App() {
   return (
-    <h1 className="text-4xl font-bold text-center text-blue-500">
-      Hello world!
-    </h1>
+    <div className='bg-gray-100'>
+      <Image></Image>
+    </div>
   )
 }
 
